@@ -1,9 +1,3 @@
-(defun add (x y)
-  (+ x y))
-
-(add 5 34)
-(add 8 19)
-
 (defun river-length (river confluences)
   (let* ((confluence-idx (cadr river))
          (confluence-length (if (eq 0 confluence-idx) 0
